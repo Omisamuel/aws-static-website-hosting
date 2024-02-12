@@ -51,7 +51,7 @@ module "alb" {
   lb_https_listner_port           = 443
   lb_https_listner_protocol       = "HTTPS"
   webserver_acm_arn               = module.aws_ceritification_manager.webserver_acm_arn
-  lb_target_group_attachment_port = 443
+  lb_target_group_attachment_port = 80
 }
 
 module "hosted_zone" {
