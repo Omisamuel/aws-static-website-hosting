@@ -114,7 +114,7 @@ VPC (Virtual Private Cloud) and subnets are essential for AWS infrastructure, ev
 
 **Create VPC and Subnets (Networking)**
 1. Choose the VPC region.
-2. Create Public & Private Subnets (2 for each).
+2. Create Public & Private Subnets.
 3. Create Route Tables and Associations.
 4. Create an Internet Gateway.
 
