@@ -4,7 +4,7 @@
 
 Host a Static Website on AWS S3 Using Terraform
 
-In this project, I've streamlined the infrastructure setup for hosting a static website using Terraform, Amazon Web Services (AWS), and Tooplate Website. The primary objective is to showcase automated provisioning and deployment processes for hosting static websites.
+In this project, we aim to simplify the infrastructure setup required for hosting a static website using Terraform, Amazon Web Services (AWS), and Tooplate Website. The key objective is to demonstrate automated provisioning and deployment processes, ensuring a seamless experience for hosting static websites.
 
 _**Prerequisites:**_
 1. AWS Account
