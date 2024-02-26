@@ -15,9 +15,6 @@ output "webserver_instance_id" {
   value = aws_instance.webserver_ec2_instance.id
 }
 
-/* output "webserver_instance_public_id" {
-  value = aws_instance.webserver_ec2_instance.public_ip
-} */
 
 resource "aws_instance" "webserver_ec2_instance" {
   ami           = var.ami_id
