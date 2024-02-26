@@ -10,10 +10,6 @@ output "sg_webserver_ec2_sg_ssh_http_id" {
   value = aws_security_group.webserver_ec2_sg_ssh_http.id
 }
 
-/* output "sg_webserver_port_443" {
-  value = aws_security_group.webserver_port_443.id
-} */
-
 
 #Security Group
 
@@ -64,23 +60,3 @@ resource "aws_security_group" "webserver_ec2_sg_ssh_http" {
 }
 
 
-
-/* resource "aws_security_group" "webserver_port_443" {
-  name        = var.webserver_ec2_sg
-  description = "Enable the Port 8080 for jenkins"
-  vpc_id      = var.vpc_id
-
-  # ssh for terraform remote exec
-  ingress {
-    description = "Allow 8080 port to access apache2"
-    cidr_blocks = ["0.0.0.0/0"]
-    from_port   = 443
-    to_port     = 443
-    protocol    = "tcp"
-  }
-
-  tags = {
-    Name = "Security Groups to allow SSH(22) and HTTP(80)"
-  }
-}
- */
